@@ -23,7 +23,7 @@ const Navbar = () => {
         <a className='hireMe lg:px-3 lg:py-2 lg:text-lg md:text-[15px] text-[12px] md:p-[4px] px-[5px]' href="#Contact">Hire Me</a>
         <a className='hover:text-white   hover:scale-125 transition-all active:text-teal-300' href={Linkedin} target='_blank'><FaLinkedin/></a>  
          <a className='transition-all hover:scale-125 hover:text-white active:text-teal-300' href={Github}><FaGithub/></a> 
-          <FaBarsStaggered className='lg:hidden  absolute -right-7 text-[#3cbcf3] md:hidden block'/>
+          {/* <FaBarsStaggered className='lg:hidden  absolute -right-7 text-[#3cbcf3] md:hidden block'/> */}
         </section>
     </nav>
   )
