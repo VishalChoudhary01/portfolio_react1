@@ -223,7 +223,7 @@ padding: 0 10px;
 
 @media (min-width: 350px) and (max-width:480px) {
   .hireMe {
-    box-shadow: 0 0 10px 1px #7ff6de;
+    box-shadow: 0 0 6px 1px #7ff6de;
   }  
   
 }
