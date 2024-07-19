@@ -17,7 +17,7 @@ const Hero = () => {
         <section className="flex flex-wrap">
             <section className="w-full lg:w-1/2">
             <section className="flex flex-col items-center lg:items-start">
-                <motion.h1  variants={container(0.8)} initial="hidden" animate="visible" className="lg:pb-8 pb-2 md:text-5xl text-[28px] tracking-tight lg:mt-1 lg:text-7xl">Vishal Kumar <span className="tracking-normal lg:font-thin font-normal   lg:text-neutral-200" >Choudhary</span> </motion.h1>
+                <motion.h1  variants={container(0.8)} initial="hidden" animate="visible" className="lg:pb-8 pb-2 md:text-5xl text-[1.9em] tracking-tight lg:mt-1 lg:text-7xl">Vishal Kumar <span className="tracking-normal lg:font-thin font-normal   lg:text-neutral-200" >Choudhary</span> </motion.h1>
                 {/* <motion.span variants={container(0.5)} initial="hidden" animate="visible" className=" font-[Poppins] bg-gradient-to-r from-sky-400 font-semibold via-green-600 to-lime-400 bg-clip-text text-xl md:text-2xl lg:text-3xl tracking-tight text-transparent">Front-End Developer</motion.span> */}
                 <motion.span variants={container(0.5)} initial="hidden" animate="visible" className=" font-[Poppins] text_Hue_Animation bg font-semibold  text-xl md:text-2xl lg:text-3xl tracking-tight">Front-End Developer</motion.span>
             <motion.p variants={container(1)} initial="hidden" animate="visible" className="my-2 max-w-xl tracking-wide lg:text-lg py-2">{HERO_CONTENT}</motion.p>
