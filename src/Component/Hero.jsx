@@ -2,7 +2,7 @@ import { HERO_CONTENT } from "../constants"
 import heroImage from '../assets/projects/darkcode.jpg'
 import { motion } from "framer-motion"
 import { FaDownload } from "react-icons/fa6";
-import ResumePdf from '../assets/File/VishalFrontendResume.pdf'
+import ResumePdf from '../assets/File/VishalKumarFRONTEND.pdf'
 const container=(delay)=>({
   hidden:{x:-100,opacity:0},
   visible:{

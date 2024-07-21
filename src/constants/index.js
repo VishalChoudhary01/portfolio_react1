@@ -40,29 +40,29 @@ export const EDUCATION=[{
 
 export const PROJECTS = [
   {
-    title: "Uifry Financial Website",
+    title: "Uifry - Financial Decisions App Landing Page",
     image: urifry,
     description:
-      "A fully Responsive website where i shows product landing page in modern way",
+      "A modern, fully responsive landing page for a financial decisions app. The page features a clean and professional design, showcasing the app's interface and key features.Clean, user-friendly interface designed to attract and engage visitors.",
     technologies: ["HTML", "CSS", "Javascript"],
-    repo:quickyGithub,
-    live:quickyLive
+    repo:uifryGithub,
+    live:uifryLive
   },
   {
-    title: "Portfolio Website",
+    title: "Personal Portfolio",
     image: portfolio,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
+      "A professional and visually stunning personal portfolio website showcasing my skills, projects, and experience as a front-end developer.",
     technologies: ["HTML", "CSS", "React", "Tailwind CSS","Framer Motion"],
     repo:portfolioGithub,
     live:portfolioLive
   },
   {
-    title: "Quicky Weather",
+    title: "MyMarket E-commerce",
     image: quickyWeather,
     description:
-      "A Small Project where show weather on city name and geolocation based well Responsive and Dynamic background change based on Day Night  based user current location ",
-    technologies: ["HTML", "CSS", "Javasript","API"],
+      "Developed a dynamic e-commerce application for listing products, displaying detailed product information, and managing a wishlist and cart. Utilized Redux Toolkit for state management and React Router for navigation.Implemented product listing and detailed view with data fetched from an API.Developed wishlist functionality with local storage for data persistence.Managed cart operations, including product count adjustments and price updates, using Redux Toolkit.Ensured smooth navigation across different pages using React Router.",
+    technologies: ["HTML", "CSS", "React","API","Redux Toolkit","React Router"],
     repo:uifryGithub,
     live:uifryLive,
   },

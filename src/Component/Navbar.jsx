@@ -1,6 +1,6 @@
 import { FaLinkedin } from 'react-icons/fa'
 import { FaGithub } from 'react-icons/fa'
-import { FaBarsStaggered } from "react-icons/fa6";
+// import { FaBarsStaggered } from "react-icons/fa6";
 import Logo from './Logo';
 const Navbar = () => {
   const Linkedin=import.meta.env.VITE_LINKEDIN
