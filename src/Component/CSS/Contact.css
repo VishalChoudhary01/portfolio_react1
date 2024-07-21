@@ -12,7 +12,7 @@ form {
   .inputFieldBox {
     position: relative;
     width: 30%;
-    min-width: 90%;
+    min-width: 250px;
   }
   
   .inputFieldBox input,
@@ -26,7 +26,11 @@ form {
     color: #88f4f6;
     font-size: 1em;
     text-transform: capitalize;
+  
 
+  }
+  .inputFieldBox input,.inputFieldBox textarea::placeholder{
+    color: #88f4f6;
   }
   
   input[type="email"] {
@@ -65,3 +69,12 @@ form {
   }
     
 
+  @media (min-width: 350px) and (max-width:480px) {
+    .inputFieldBox {
+      position: relative;
+      width: 30%;
+      min-width: 90%;
+    }
+     
+  }
+  
