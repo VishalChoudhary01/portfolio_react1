@@ -29,7 +29,7 @@ form {
   
 
   }
-  .inputFieldBox input,.inputFieldBox textarea::placeholder{
+  .inputFieldBox input::placeholder,.inputFieldBox textarea::placeholder{
     color: #88f4f6;
   }
   
