@@ -10,7 +10,7 @@ const Navbar = () => {
         <section className='flex flex-shrink-0 items-center'>
           <Logo/>
         </section>
-        <section className='lg:block md:block hidden'>
+        <section className='lg:block md:hidden landscape hidden'>
           <ul className='flex justify-center font-[RobotoSlab] lg:text-[22px] md:text-[20px] items-center gap-x-5  '>
             <li><a className='border_bottom' href="#">Home</a></li>
             <li><a className='border_bottom' href="#About">About</a></li>

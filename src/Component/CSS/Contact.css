@@ -15,26 +15,40 @@ form {
     min-width: 250px;
   }
   
-  .inputFieldBox input,
-  .inputFieldBox textarea {
+
+  .inputFieldBox input{
     width: 100%;
+    background: transparent;
+    border: 2px solid #027874;
+    border-radius: 5px;
+    outline: none;
+    text-transform: capitalize;
+    padding: 3% 0 ;
+    padding-left: 2%;
+    color: #88f4f6;
+  }
+  
+  .inputFieldBox textarea {
     padding: 3%;
     border: 2px solid #027874;
-    background: transparent;
     border-radius: 5px;
     outline: none;
     color: #88f4f6;
-    font-size: 1em;
+    /* font-size: 1em; */
     text-transform: capitalize;
   
 
   }
-  .inputFieldBox input::placeholder,.inputFieldBox textarea::placeholder{
-    color: #88f4f6;
+  .inputFieldBox textarea::placeholder{
+    color: #88f4f6a7;
+
   }
   
+  
+
   input[type="email"] {
     text-transform: lowercase;
+
   }
   
   .inputFieldBox label {
@@ -42,10 +56,12 @@ form {
     left: 0;
     top: 10px;
     padding: 1%;
+    padding-left: 3%;
     pointer-events: none;
     font-size: 0.8em;
     text-transform: uppercase;
     transition: 0.3s;
+    color: #88f4f6a7;
   }
   
   .inputFieldBox input:valid ~ label,
@@ -58,6 +74,8 @@ form {
     border-right: 2px solid  #45f6c7;
   }
   
+  
+
   .inputFieldBox textarea {
     height: 100px; 
     resize: vertical; 

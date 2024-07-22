@@ -9,7 +9,7 @@ const Projects = () => {
         <section className="">{PROJECTS.map((project,index)=>(
             <section key={index} className="mb-8 flex flex-wrap lg:justify-center">
                 <motion.section whileInView={{opacity:1,x:10}} initial={{opacity:0,x:-100}} transition={{duration:0.8,delay:1}} className="w-full lg:w-1/4 ">               
-                 <img className="mb-5 rounded hover:scale-150 cursor-pointer  transition-all " src={project.image} width={250} height={250} alt={project.title} />
+                 <img className="mb-5 rounded lg:hover:scale-150 cursor-pointer  transition-all " src={project.image} width={250} height={250} alt={project.title} />
             </motion.section>
             <motion.section whileInView={{opacity:1,x:0}} initial={{opacity:0,x:100}} transition={{duration:0.8,delay:1}} className="w-full max-w-xl lg:3/4">
             <h6 className="mb-2 font-semibold">{project.title}</h6>

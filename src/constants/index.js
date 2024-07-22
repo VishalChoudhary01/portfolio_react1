@@ -57,15 +57,15 @@ export const PROJECTS = [
     repo:portfolioGithub,
     live:portfolioLive
   },
-  {
-    title: "MyMarket E-commerce",
-    image: quickyWeather,
-    description:
-      "Developed a dynamic e-commerce application for listing products, displaying detailed product information, and managing a wishlist and cart. Utilized Redux Toolkit for state management and React Router for navigation.Implemented product listing and detailed view with data fetched from an API.Developed wishlist functionality with local storage for data persistence.Managed cart operations, including product count adjustments and price updates, using Redux Toolkit.Ensured smooth navigation across different pages using React Router.",
-    technologies: ["HTML", "CSS", "React","API","Redux Toolkit","React Router"],
-    repo:uifryGithub,
-    live:uifryLive,
-  },
+  // {
+  //   title: "MyMarket E-commerce",
+  //   image: quickyWeather,
+  //   description:
+  //     "Developed a dynamic e-commerce application for listing products, displaying detailed product information, and managing a wishlist and cart. Utilized Redux Toolkit for state management and React Router for navigation.Implemented product listing and detailed view with data fetched from an API.Developed wishlist functionality with local storage for data persistence.Managed cart operations, including product count adjustments and price updates, using Redux Toolkit.Ensured smooth navigation across different pages using React Router.",
+  //   technologies: ["HTML", "CSS", "React","API","Redux Toolkit","React Router"],
+  //   repo:uifryGithub,
+  //   live:uifryLive,
+  // },
   
   
 ];

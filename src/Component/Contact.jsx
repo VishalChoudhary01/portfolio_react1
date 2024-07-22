@@ -29,6 +29,7 @@ const Contact = () => {
             id="fullName"
             required="required"
             {...register("fullName", { required: "Full Name is required" })}
+            className="fullName"
           />
           <label htmlFor="fullName">Full Name</label>
         </motion.section>
@@ -50,6 +51,7 @@ const Contact = () => {
                 message: "Invalid email address",
               },
             })}
+            className="emailInput"
           />
           <label htmlFor="email">E-mail</label>
         </motion.section>
@@ -61,7 +63,7 @@ const Contact = () => {
           className="inputFieldBox"
         >
           <textarea
-            className={`w-full bg-transparent border border-teal-600 pt-2  placeholder:text-[1em] placeholder:text-neutral-300`}
+            className={`w-full bg-transparent border border-teal-600 pt-2  placeholder:text-[1em]`}
             placeholder="Type Your Message Here ...."
             name="message"
             id="message"
