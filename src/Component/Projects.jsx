@@ -8,7 +8,7 @@ const Projects = () => {
         <motion.h2 whileInView={{opacity:1,y:0}} initial={{opacity:0,y:-40}} transition={{duration:0.8,delay:0.5}} className="my-20 heading text-center text-2xl  md:text-3xl lg:text-4xl">Projects</motion.h2 >
         <section className="">{PROJECTS.map((project,index)=>(
             <section key={index} className="mb-8 flex flex-wrap lg:justify-center">
-                <motion.section whileInView={{opacity:1,x:10}} initial={{opacity:0,x:-100}} transition={{duration:0.8,delay:1}} className="w-full lg:w-1/4 ">               
+                <motion.section whileInView={{opacity:1,x:10}} initial={{opacity:0,x:-100}} transition={{duration:0.8,delay:1}} className="w-full lg:w-1/4 lg:pr-8 ">               
                  <img className="mb-5 rounded lg:hover:scale-150 cursor-pointer  transition-all " src={project.image} width={250} height={250} alt={project.title} />
             </motion.section>
             <motion.section whileInView={{opacity:1,x:0}} initial={{opacity:0,x:100}} transition={{duration:0.8,delay:1}} className="w-full max-w-xl lg:3/4">
