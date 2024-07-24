@@ -47,7 +47,7 @@ const Technologies = () => {
         <motion.section variants={iconVariants(1)} initial="initial" animate="animate" className="rounded-2xl border-[3px] border-neutral-800 p-3">
           <IoLogoJavascript className="text-5xl lg:text-6xl text-[#EFD81D]" />
         </motion.section>
-        <p className="text-[12px] lg:text-sm py-1 rounded-md mt-2 text-teal-300 font-medium bg-neutral-900">Javscript</p>
+        <p className="text-[12px] lg:text-sm py-1 rounded-md mt-2 text-teal-300 font-medium bg-neutral-900">Javascript</p>
         </section>
         <section className=" text-center">
         <motion.section variants={iconVariants(4)} initial="initial" animate="animate" className="rounded-2xl border-[3px] border-neutral-800 p-3">
